@@ -1,4 +1,8 @@
-import PropTypes from 'prop-types'; 1.4k (gzipped: 776)
+// import PropTypes from 'prop-types'; 1.4k (gzipped: 776)
+// import css from './profile.module.css';
+
+
+import PropTypes from 'prop-types';
 import css from './profile.module.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
@@ -44,3 +48,4 @@ Profile.propTypes = {
     }).isRequired,
 
 };
+
