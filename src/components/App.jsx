@@ -1,15 +1,16 @@
 import { Profile } from './Profile/Profile';
-import user from './Profile/user.json';
+import user from '../data/user.json';
 
 export const App = () => {
-  return  (
+  return (
     <Profile
-      username={user.username}
-      tag={user.tag}
-      location={user.location}
-      avatar={user.avatar}
-      stats={user.stats}
-    />
-  );    
+  username={user.username}
+  tag={user.tag}
+  location={user.location}
+  avatar={user.avatar}
+  stats={user.stats}
+/>
+  );
 };
+
 
